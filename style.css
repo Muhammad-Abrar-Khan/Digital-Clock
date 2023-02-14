@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+.main{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 3px;    
+    background-image: url("https://images.pexels.com/photos/1179490/pexels-photo-1179490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    font-size: 1.5rem;
+    color: black;
+    background-color: rgb(255, 255, 255,0.5);
+}
+.clock{
+    display: flex;
+    gap: 2rem;
+    height: 10rem;
+    border:6px solid rgb(128, 128, 128,0.3);
+    border-radius: 10%;
+    padding:1rem;
+    background: rgba(1,1,1,0.9);
+}
+.text{
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+}
+.zero{
+    font-size: 5rem;
+}
